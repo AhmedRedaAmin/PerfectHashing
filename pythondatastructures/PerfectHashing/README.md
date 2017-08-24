@@ -1,0 +1,6 @@
+ A python implementation to the perfect hashing problem using the universal hash function :
+ How to use :- load your file path , hard code it into the main  "I wanted to make it an input but it could get confusing for relative addresses, also when will you want to stop using the file has no flag added so you continue to use the same file for an infinite number of queries as long as the program is running"
+ - Then choose one of two methods of hashing , the N space ,labeled as 1, or the N^2 spaced , labeled as anything else , and insert the entry you are looking for.
+ - The output will return with two fields , True or False , the second field is 'Not Found' for false and The hash address for the entry if true.
+ - Note :- Some times the output will in fact be two outputs , that`s when the second level of  hashing is used , it will give two true the first with its internal hash address , the second with its external hash address, although for false it won`t do the same as repeating the same message twice is redundant , if the true was only one , this means that only one level of hashing was used and not two , that happens when no collisions occur in the first level for this particular entry , from the previous you can deduce that the output of false should always be a single output isa.  
+
